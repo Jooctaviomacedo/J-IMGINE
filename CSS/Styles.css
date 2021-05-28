@@ -1,6 +1,15 @@
-#Title{
-    border: solid 5px cornflowerblue;
+body{
+    background-color: rgb(207, 207, 207);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-column: 50px auto;   
+    grid-row: 50px auto;
 }
+#Title{
+    border: solid 10px rgba(100, 148, 237, 0);
+    border-radius: 10px;
+    background-color: honeydew;
+}
+
 #img_1 {
 grid-column: 50px auto;   
 grid-row: 50px auto;
@@ -11,8 +20,8 @@ text-align: center;
 }
 
 img{
-    width: 180px;
-    height: 210px;
+    width: 170px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
     padding: 0px 0px 20px 0px;
@@ -20,25 +29,53 @@ img{
     background-color: rgba(0, 0, 0, 0.247);
     border-radius: 10px;
 }
+img:hover{
+    border: solid 2px rgb(44, 196, 170) ;
+        background-color: rgb(44, 196, 170);
+
+}
 #J_im{
     position: absolute;
     top: 0%;
     left: 210px;
+    color:rgb(44, 196, 170);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
 
+}
+#J_im:hover{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    -moz-box-direction: reverse;
 }
 li{
     display: inline;
     position: relative;
     top: 0%;
-    left: 940px;
+    left: 930px;
 }
 
 a {
     padding: 10px;
     text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
 }
-    a :hover{
-       border: solid 10px crimson ;
-       box-shadow: 10px crimson;
-       background-color: crimson;
+    a:hover{
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        border: solid 10px rgb(44, 196, 170) ;
+        box-shadow:10px 5px 5px rgba(26, 143, 124, 0.808);
+        background-color: rgb(44, 196, 170);
+        -webkit-box-flex: initial;
     }
+footer{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+#back{
+  background-image: url(https://cdn4.iconfinder.com/data/icons/game-interface-outline/100/objects-25-512.png);
+}
