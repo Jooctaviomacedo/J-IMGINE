@@ -1,0 +1,44 @@
+#Title{
+    border: solid 5px cornflowerblue;
+}
+#img_1 {
+grid-column: 50px auto;   
+grid-row: 50px auto;
+padding: 10px 140px 0px 160px;
+grid-template-columns: 10px;
+text-align: center;
+
+}
+
+img{
+    width: 180px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+    padding: 0px 0px 20px 0px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+}
+#J_im{
+    position: absolute;
+    top: 0%;
+    left: 210px;
+
+}
+li{
+    display: inline;
+    position: relative;
+    top: 0%;
+    left: 940px;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+}
+    a :hover{
+       border: solid 10px crimson ;
+       box-shadow: 10px crimson;
+       background-color: crimson;
+    }
